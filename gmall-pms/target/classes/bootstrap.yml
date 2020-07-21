@@ -1,10 +1,10 @@
 spring:
   application:
-    name: pms-service
+    name: pms-service #服务名
   cloud:
     nacos:
       config:
-        server-addr: 106.14.196.116:8848
-        namespace: 1dcf67e5-bcb6-46de-bf76-22a94c40cb05
-        group: dev
-        file-extension: yml  # 默认找服务名.properties文件
+        server-addr: edgclearlove.top:8848    #注册中心地址
+        namespace: 1dcf67e5-bcb6-46de-bf76-22a94c40cb05  #配置命名空间
+        group: dev                            #分组
+        file-extension: yaml  #配置文件扩展名，默认找服务名.properties文件

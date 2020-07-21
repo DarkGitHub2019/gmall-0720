@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ums-service #服务名
+  cloud:
+    nacos:
+      config:
+        server-addr: edgclearlove.top:8848    #注册中心地址
+        namespace: 11f63511-f868-4885-903a-6fdab6e76296  #配置命名空间
+        group: dev                            #分组
+        file-extension: yaml  #配置文件扩展名，默认找服务名.properties文件

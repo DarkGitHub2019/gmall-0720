@@ -1,5 +1,7 @@
 server:
   port: 8888
+
+##本部分已移植至nacos的配置中心，若nacos配置中心无法连接可取消注释使用本配置
 spring:
   cloud:
     nacos:
